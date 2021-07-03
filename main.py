@@ -9,4 +9,3 @@ from dao import userDao
 userModel = userDao.UserDao()
 print(userModel.loginAndPasswordExist('gator@junior.com', '1234'))
 
-
